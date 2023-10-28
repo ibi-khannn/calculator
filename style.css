@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.calculator-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.displayDiv {
+    margin-top: 200px;
+    display: flex;
+    justify-content: flex-end;
+    height: 500px;
+    width: 400px;
+    padding: 49px;
+    flex: 1;
+    border: 1px solid red;
+    background: white;
+    font-size: 25px;
+    color: red;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+}
+
+.cols {
+    display: flex;
+    flex: 1;
+}
+
+.rows {
+    display: flex;
+    flex: 1;
+    border: 1px solid red;
+    background: white;
+    color: red;
+}

@@ -6,6 +6,13 @@ body {
     box-sizing: border-box;
 }
 
+.pageHeading {
+    margin-top: 100px;
+    font-size: 55px;
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 .calculator-buttons {
     display: flex;
     justify-content: center;
@@ -14,7 +21,7 @@ body {
 }
 
 .displayDiv {
-    margin-top: 200px;
+    margin-top: 10px;
     display: flex;
     justify-content: flex-end;
     height: 500px;
